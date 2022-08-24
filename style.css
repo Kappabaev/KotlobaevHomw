@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "raleway", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+.why{
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    }
+.whyt{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    
+    
+    color: #000000;
+    }
+hr{
+    margin-left: auto;
+    margin-right: auto;    
+    width: 170px;
+    height: 0px;
+    left: 671px;
+    top: 2003px;
+    
+    border: 1px solid #EC7979;
+    margin-bottom: 40px;
+    }
+    
+.lorem{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        align-items: center;
+        text-align: center; 
+        color: #86878B;
+        margin-bottom: 71px; 
+    }
+.wrapper{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+
+.title{
+    font-size: 34px;
+    color: coral;
+    text-align: center;
+}
+.pricing-list__item{
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: capitalize;
+color: #86878B;
+background: #FFFFFF;
+border: 2px solid #F5F5F5;
+padding: 15px 0;
+}
+.pricing-cart{
+    width: 370px;
+    display: inline-block;
+}
+
+
+.pricing-list__item--beg{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    background: #333333;
+
+}
+
+.pricing-list__item--pri{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    background: #333333;
+}
+
+.pricing-list__item--text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #333333;
+}
+
+.cart{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.cart__discription{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.cart__img{
+   width: 92px;
+   height: 92px;
+   border: 1px solid #EC7979;
+   border-radius: 50%;
+   padding: 8px;
+   margin: 0 auto; 
+   margin-bottom: 50px;
+   
+}
+.cart__title{
+    margin-bottom: 50px;
+}
+
+.uber{
+    background: #F5F5F5; 
+}
+
+.tabs__button{
+    display: flex;
+    max-width: 600px;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    margin-bottom: -1px;
+}
+.tabs{
+    margin: 100px 0;
+    text-align: center;
+    
+}
+
+.button1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    width: 203px;
+    height: 40px;
+    left: 170px;
+    top: 1263px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+}
+.button2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 184px;
+    height: 40px;
+    left: 372px;
+    top: 1263px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+}
+.button3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 184px;
+    height: 40px;
+    left: 556px;
+    top: 1263px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+color: #333333;
+}
+.tabs__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 570px;
+    margin:0 30px 0 100px;
+
+}
+.tabs__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    width: 570px;
+    height: 124px;
+}
+.tabs__content{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    width: 570px;
+    height: 210px;
+    text-align: start;
+}
+.tab__dowload{
+   align-self: flex-start;
+   font-weight: 600;
+   font-size: 10px;
+   line-height: 25px;
+   color: #FFFFFF;
+   padding: 15px 90px;
+   margin: 0 0 54px 0;
+   background: #EC7979;
+   border: none;
+   cursor: pointer;
+   font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;   
+}
+.picture{
+    
+    
+}
+
+.statue{
+    position: absolute;
+    width: 470px;
+    height: 500px;
+    left: 870px;
+    top: 139px;
+    
+    background: url(image/statue.png);   
+}
+    
+
+
+
